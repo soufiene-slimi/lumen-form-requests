@@ -1,0 +1,30 @@
+{
+    "name": "soufiene-slimi/lumen-form-requests",
+    "description": "Missing form requests functionality for lumen, ported from laravel framework.",
+    "authors": [
+        {
+            "name": "Soufiene Slimi",
+            "email": "s2s@mail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "lumen",
+        "api"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/lumen-framework": "^6.0",
+        "illuminate/contracts": "^6.0",
+        "illuminate/support": "^6.0",
+        "illuminate/validation": "^6.0",
+        "illuminate/http": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slimi\\Form\\": "src"
+        }
+    }
+}
